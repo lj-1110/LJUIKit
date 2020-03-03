@@ -4,6 +4,11 @@ platform :ios, '8.0'
 
 target 'LJUIKit_Example' do
   pod 'LJUIKit', :path => '../'
+  pod 'Masonry'
+  pod 'MaryPopin'
+  pod 'MBProgressHUD'
+  pod 'MJRefresh'
+  pod 'MJExtension'
 
   target 'LJUIKit_Tests' do
     inherit! :search_paths

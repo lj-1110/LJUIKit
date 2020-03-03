@@ -1,0 +1,67 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LJUIKit (0.1.0):
+    - MaryPopin
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+  - MaryPopin (1.4.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.3.1)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - LJUIKit (from `../`)
+  - MaryPopin
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - MaryPopin
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - Specta
+
+EXTERNAL SOURCES:
+  LJUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LJUIKit: 667dc473db6628362f3f23768699a0a9d85ae32d
+  MaryPopin: ef1f32f744078ac2761140ab7c60cb82554c7e2a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 30a4ee8a9c523d9bd2b29fdc92dfe6178f2ceb15
+
+COCOAPODS: 1.8.4

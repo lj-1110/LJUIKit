@@ -7,6 +7,7 @@
 //
 
 #import "LJAppDelegate.h"
+#import <Masonry/Masonry.h>
 
 @implementation LJAppDelegate
 

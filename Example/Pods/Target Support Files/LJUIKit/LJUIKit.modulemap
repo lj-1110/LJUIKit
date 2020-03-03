@@ -1,0 +1,6 @@
+framework module LJUIKit {
+  umbrella header "LJUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
